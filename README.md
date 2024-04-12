@@ -2,7 +2,7 @@
 This is a grassland ecosystem simulation contains 5 types of animals (sheep, tiger, wolf, rat, snake), 2 types of plants (wheat, grass), 3 types of weather (sunny, rainy, foggy), 2 types of time (day, night), and 2 types of disease (parasitic disease, brucellosis).
 
 ## Introduction 
-It's a university project from King's College London 2019/20 4CCS1PPA Programming and Applications, and please note this project is run on BuleJ.
+This is the code part of a university project from King's College London 2019/20 4CCS1PPA Programming and Applications, and please note this project is run on BuleJ. Please contact me if you're interested in the whole spec and the written report.
 - Supervisors: Michael Kölling, David J. Barnes
 - Author: [Yichun Zhang](https://github.com/missyQWQ)
 ```
@@ -13,6 +13,9 @@ To start:
         + simulate - and supply a number (say 10) for that many steps.
         + runLongSimulation - for a simulation of 4000 steps.
 ```
+
+## Structure
+![Structure](/code-structure.png)
 
 ## Species and Factors
 Animals:
