@@ -14,6 +14,9 @@ To start:
         + runLongSimulation - for a simulation of 4000 steps.
 ```
 
+## Demo
+![demo](/demo.gif)
+
 ## Structure
 ![Structure](/code-structure.png)
 
