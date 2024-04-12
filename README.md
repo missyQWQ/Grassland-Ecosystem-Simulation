@@ -63,9 +63,15 @@ For diseases:
 
 ## Rules
 1. Plants are able to grow at a given rate but can’t move. They will die if eaten by herbivores.
+
 2. Animals can be divided into carnivores (predators) and herbivores. Carnivores eat other animals while herbivores eat plants.
+
 3. Animals distinguish male and female individuals, they can only breed when they reach the breed age and a male and female individual with the same species meet.
+
 4. Animals can also age and this could result in animal’s death because of old age.
+
 5. Animals are able to eat and move. They will move towards a source of food if found and eat it. This could increase their food level which is the number of steps they can go before has to eat again. They will die of hungry if the food level reaches zero. If no food found, they will move to a free location. They will die of overcrowding if no food found as well as no more free space. In general, animals might die of old age, overcrowding, hungry, be eaten and disease.
+
 6. Animals might get disease and this could result in death.
+
 7. Animals getting these diseases will have a random 1-15 days latent period. During this period, the animal has a probability of infecting other animals. At the end of this period, the animal will either die or cure. The 2 diseases have different ways of spreading infection.  
