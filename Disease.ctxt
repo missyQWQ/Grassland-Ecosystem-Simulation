@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\r\n\ Class\ Disease\ -\ Animals\ may\ get\ disease\ and\ might\ die\ of\ disease.\r\n\ There\ are\ 2\ diseases\:\ Parasitic\ Disease\ and\ Brucellosis.\r\n\ Parasitic\ Disease\:\ \r\n\ \ Infection\ occurs\ when\ two\ animals\ meet.\ \r\n\ \ Spread\ through\ animal-animal\ contact.\r\n\ Brucellosis\:\ \r\n\ \ Affect\ only\ particular\ species\ (Sheep,\ Tiger,\ Wolf).\r\n\ \ At\ first\ it\ only\ spreads\ in\ sheep\ through\ sheep-sheep\ contact.\r\n\ \ Then\ tiger\ and\ wolf\ will\ contract\ it\ from\ sheep\ if\ they\ consume\ sheep.\r\n\ \ Finally\ it\ spreads\ through\ tiger-tiger\ contact,\ wolf-wolf\ contact,\ sheep-sheep\ contact.\r\n\r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/22\r\n
+comment1.params=curStatus\ latentPeriod
+comment1.target=Disease(int,\ int)
+comment1.text=\r\n\ Create\ a\ disease\ with\ the\ type\ of\ disease\ and\ latent\ period.\r\n\ @param\ curStatus\ Current\ disease\ status,\ 0\ means\ parasitic\ disease,\ \r\n\ 1\ means\ brucellosis,\ -1\ indicates\ healthy.\r\n\ @param\ latentPeriod\ Latent\ period,\ -1\ if\ healthy.\r\n
+comment2.params=
+comment2.target=int\ getCurStatus()
+comment2.text=\r\n\ Return\ current\ disease\ status.\r\n\ 0\ indicates\ parasitic\ disease,\ 1\ indicates\ brucellosis,\ -1\ indicates\ healthy.\r\n
+comment3.params=
+comment3.target=int\ getLatentPeriod()
+comment3.text=\r\n\ Return\ latent\ period,\ -1\ if\ healthy.\r\n\ During\ this\ period,\ animal\ can\ infect\ other\ animals.\ \r\n\ At\ the\ end\ of\ this\ period,\ animal\ will\ either\ die\ or\ cure.\r\n
+comment4.params=latentPeriod
+comment4.target=void\ setLatentPeriod(int)
+comment4.text=\r\n\ Set\ latent\ period,\ -1\ if\ healthy.\r\n\ @param\ latentPeriod\r\n
+comment5.params=curStatus\ latentPeriod
+comment5.target=void\ setDisease(int,\ int)
+comment5.text=\r\n\ Set\ disease\ with\ the\ type\ of\ disease\ and\ latent\ period.\r\n\ @param\ curStatus\ Current\ disease\ status,\ 0\ means\ parasitic\ disease,\ \r\n\ 1\ means\ brucellosis,\ -1\ indicates\ healthy.\r\n\ @param\ latentPeriod\ Latent\ period,\ -1\ if\ healthy.\r\n
+comment6.params=
+comment6.target=void\ reset()
+comment6.text=\r\n\ Reset\ the\ disease.\ This\ means\ set\ the\ status\ as\ "healthy"\ again.\r\n
+comment7.params=diseaseType
+comment7.target=java.lang.String\ getDiseaseName(int)
+comment7.text=\r\n\ Return\ the\ name\ of\ disease.\r\n\ @param\ diseaseType\ 0\ indicates\ parasitic\ disease,\ 1\ indicates\ brucellosis.\r\n
+numComments=8

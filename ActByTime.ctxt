@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ActByTime
+comment0.text=\n\ Interface\ ActByTime.\n\ Speices\ which\ implement\ this\ interface\ can\ act\ differently\ according\ to\ time.\n\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\n\ @version\ 2020/02/22\n
+comment1.params=
+comment1.target=void\ day_act()
+comment1.text=\n\ How\ the\ speices\ act\ in\ the\ days.\n
+comment2.params=
+comment2.target=void\ night_act()
+comment2.text=\n\ How\ the\ speices\ act\ at\ night.\n
+numComments=3

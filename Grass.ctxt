@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Grass
+comment0.text=\r\n\ Class\ Grass\ -\ inherits\ from\ Plants\ and\ implements\ ActByWeather.\r\n\ Grass\ is\ able\ to\:\ \r\n\ \ 1)\ Grow.\ Grows\ at\ a\ specific\ growth\ rate\ and\ has\ a\ maximum\ growth\ number.\r\n\ \ 2)\ Act\ differently\ according\ to\ the\ weather.\ It\ can't\ grow\ without\ rain.\r\n\ \ 3)\ Die.\ Grass\ will\ die\ when\ it's\ eaten\ (by\ sheep).\r\n\r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/21\r\n
+comment1.params=field\ location
+comment1.target=Grass(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ grass.\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=
+comment2.target=double\ getGrowRate()
+comment2.text=\r\n\ Return\ the\ likelihood\ of\ a\ grass\ growing.\r\n
+comment3.params=
+comment3.target=int\ getGrowSize()
+comment3.text=\r\n\ Return\ the\ maximum\ number\ of\ new\ grasses\ grow.\r\n
+comment4.params=field\ loc
+comment4.target=Species\ generateChild(Field,\ Location)
+comment4.text=\r\n\ Return\ a\ newly\ grown\ grass.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment5.params=
+comment5.target=void\ sunny_act()
+comment5.text=\r\n\ Implement\ interface\ 'ActByWeather'\ -\ grass\ cannot\ grow\ in\ sunny\ days.\r\n
+comment6.params=
+comment6.target=void\ rainy_act()
+comment6.text=\r\n\ Implement\ interface\ 'ActByWeather'\ -\ grass\ can\ grow\ in\ rainy\ days.\r\n
+comment7.params=
+comment7.target=void\ foggy_act()
+comment7.text=\r\n\ Implement\ interface\ 'ActByWeather'\ -\ grass\ cannot\ grow\ in\ foggy\ days.\r\n
+numComments=8

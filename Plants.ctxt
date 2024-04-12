@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Plants
+comment0.text=\r\n\ Class\ Plants\ -\ inherits\ from\ Species.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ -\ superclass\ of\ Grass\ and\ Wheat.\r\n\ Plant\ is\ able\ to\:\ \r\n\ \ 1)\ Grow\ a\ specific\ number\ (may\ be\ zero)\ of\ new\ plants\ if\ the\ current\ plant\ is\ alive\ and\ growable.\r\n\ \ 2)\ Die.\ Plant\ will\ die\ when\ it's\ eaten.\r\n\ \ 3)\ Act\ differently\ according\ to\ weather\:\ \r\n\ \ \ \ \ Grass\ will\ be\ influenced\ by\ weather\ and\ it\ can\ grow\ only\ in\ rainy\ days.\ \r\n\ \ \ \ \ Wheat\ will\ not\ be\ influenced\ by\ weather\ so\ it\ can\ grow\ no\ matter\ what\ weather\ is.\r\n\ \ \r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/21\r\n
+comment1.params=field\ location
+comment1.target=Plants(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ plant\ and\ set\ the\ plant\ is\ growable.\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newPlants
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ plant\ does\ most\ of\ the\ time\ -\ grow\ new\ plants\ if\ \r\n\ the\ current\ plant\ is\ alive\ and\ growable.\r\n\ @param\ newPlants\ A\ list\ to\ return\ newly\ grown\ plants.\r\n
+comment3.params=
+comment3.target=int\ breed()
+comment3.text=\r\n\ Return\ the\ number\ of\ growth\ if\ it\ can\ grow\ (may\ be\ zero).\r\n
+comment4.params=isGrowable
+comment4.target=void\ setGrowable(boolean)
+comment4.text=\r\n\ Set\ the\ plant\ is\ growable\ or\ not.\r\n\ @param\ isGrowable\r\n
+comment5.params=
+comment5.target=double\ getGrowRate()
+comment5.text=\r\n\ Return\ the\ likelihood\ of\ a\ plant\ growing.\r\n
+comment6.params=
+comment6.target=int\ getGrowSize()
+comment6.text=\r\n\ Return\ the\ maximum\ number\ of\ new\ plants\ grow.\r\n
+numComments=7

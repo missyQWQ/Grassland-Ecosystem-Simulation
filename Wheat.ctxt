@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Wheat
+comment0.text=\r\n\ Class\ Wheat\ -\ inherits\ from\ Plants.\r\n\ Wheat\ is\ able\ to\:\ \r\n\ \ 1)\ Grow.\ Grows\ at\ a\ specific\ growth\ rate\ and\ has\ a\ maximum\ growth\ number.\r\n\ \ \ \ \ Wheat\ will\ not\ be\ influenced\ by\ weather\ so\ it\ can\ grow\ no\ matter\ what\ weather\ is.\r\n\ \ 2)\ Die.\ Wheat\ will\ die\ when\ it's\ eaten\ (by\ rats).\ \r\n\ \r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/21\r\n
+comment1.params=field\ location
+comment1.target=Wheat(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ wheat.\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=
+comment2.target=double\ getGrowRate()
+comment2.text=\r\n\ Return\ the\ likelihood\ of\ a\ wheat\ growing.\r\n
+comment3.params=
+comment3.target=int\ getGrowSize()
+comment3.text=\r\n\ Return\ the\ maximum\ number\ of\ new\ wheats\ grow.\r\n
+comment4.params=field\ loc
+comment4.target=Species\ generateChild(Field,\ Location)
+comment4.text=\r\n\ Return\ a\ newly\ grown\ wheat.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+numComments=5

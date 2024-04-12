@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\r\n\ Class\ Time.\r\n\ This\ class\ keeps\ track\ of\ the\ time\ of\ day\:\ day\ and\ night.\r\n\ And\ provide\ an\ interface\ "ActByTime"\ for\ classes\ who\ implement\ it\ achieving\ different\ act\ in\ day\ and\ night.\ \r\n\r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/22\r\n
+comment1.params=curTime
+comment1.target=Time(boolean)
+comment1.text=\r\n\ Create\ time\ with\ indicating\ either\ day\ or\ night.\r\n\ @param\ curTime\ True\ if\ night,\ false\ if\ day.\r\n
+comment2.params=
+comment2.target=boolean\ getIsNight()
+comment2.text=\r\n\ Return\ whether\ it's\ night\ or\ not.\ True\ if\ night,\ false\ if\ day.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTime()
+comment3.text=\r\n\ Return\ a\ String\ of\ current\ time.\ "day"\ or\ "night".\r\n
+comment4.params=
+comment4.target=void\ setDay()
+comment4.text=\r\n\ Set\ the\ time\ as\ day.\r\n
+comment5.params=
+comment5.target=void\ setNight()
+comment5.text=\r\n\ Set\ the\ time\ as\ night.\r\n
+comment6.params=actByTime
+comment6.target=void\ timeAct(ActByTime)
+comment6.text=\r\n\ Different\ behaviour\ in\ day\ or\ night.\r\n\ @param\ actByTime\ Interface\ type.\r\n
+numComments=7

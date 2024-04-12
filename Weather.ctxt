@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ Class\ Weather\ -\ Weather\ can\ change,\ and\ it\ influences\ the\ behaviour\ \r\n\ of\ some\ simulated\ aspects.\r\n\ This\ class\ keeps\ track\ of\ the\ change\ of\ weather\:\ sunny,\ rainy,\ foggy.\r\n\ And\ provide\ an\ interface\ "actByWeather"\ for\ classes\ who\ implement\ it\ achieving\ \r\n\ different\ act\ in\ sunny,\ rainy\ and\ foggy.\r\n\r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/22\r\n
+comment1.params=curWeather\ weatherInterval
+comment1.target=Weather(int,\ int)
+comment1.text=\r\n\ Create\ weather\ with\ a\ weather\ type\ and\ its\ lasting\ days.\r\n\ @param\ curWeather\ 0\ ->\ sunny,\ 1\ ->\ rainy,\ 2\ ->\ foggy.\r\n\ @param\ weatherInterval\ Lasting\ days\ of\ the\ weather.\r\n
+comment2.params=curWeather
+comment2.target=void\ setWeather(int)
+comment2.text=\r\n\ Set\ weather.\r\n\ @param\ curWeather\ 0\ ->\ sunny,\ 1\ ->\ rainy,\ 2\ ->\ foggy.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getWeather()
+comment3.text=\r\n\ Return\ current\ weather.\r\n
+comment4.params=weatherInterval
+comment4.target=void\ setWeatherInterval(int)
+comment4.text=\r\n\ Set\ lasting\ days\ of\ the\ weather.\r\n
+comment5.params=
+comment5.target=int\ getWeatherInterval()
+comment5.text=\r\n\ Return\ lasting\ days\ of\ the\ weather.\r\n
+comment6.params=actByWeather
+comment6.target=void\ weatherAct(ActByWeather)
+comment6.text=\r\n\ Different\ behave\ in\ different\ weather.\r\n\ @param\ actByWeather\ Interface\ type.\r\n
+numComments=7

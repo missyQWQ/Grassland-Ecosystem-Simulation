@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ActByWeather
+comment0.text=\r\n\ Interface\ ActByWeather.\r\n\ Speices\ which\ implement\ this\ interface\ can\ act\ differently\ according\ to\ weather.\r\n\r\n\ @author\ Yichun\ Zhang\ &\ Yuanfei\ Qiu\r\n\ @version\ 2020/02/22\r\n
+comment1.params=
+comment1.target=void\ sunny_act()
+comment1.text=\r\n\ How\ the\ speices\ act\ in\ sunny\ days.\r\n
+comment2.params=
+comment2.target=void\ rainy_act()
+comment2.text=\r\n\ How\ the\ speices\ act\ in\ rainy\ days.\r\n
+comment3.params=
+comment3.target=void\ foggy_act()
+comment3.text=\r\n\ How\ the\ speices\ act\ in\ foggy\ days.\r\n
+numComments=4
